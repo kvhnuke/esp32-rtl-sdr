@@ -1,4 +1,0 @@
---flash_mode dio --flash_freq 80m --flash_size detect
-0x0 bootloader/bootloader.bin
-0x10000 usb_host_lib_example.bin
-0x8000 partition_table/partition-table.bin
