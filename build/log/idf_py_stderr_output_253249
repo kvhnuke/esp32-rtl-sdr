@@ -1,0 +1,57 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x420085fa: transfer_read_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:145 (discriminator 3)
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x420085f7: transfer_read_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:145 (discriminator 3)
+[0m
+[0;33m0x4200a4bb: usb_host_client_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:784 (discriminator 4)
+[0m
+[0;33m0x420089cd: libusb_control_transfer at /home/kvhnuke/Github/esp32/main/class_driver.c:221
+[0m
+[0;33m0x42008a53: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:235
+[0m
+[0;33m0x42008af9: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/class_driver.c:292
+[0m
+[0;33m0x42009098: action_get_str_desc at /home/kvhnuke/Github/esp32/main/class_driver.c:523 (discriminator 2)
+[0m
+[0;33m0x4200919a: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:590
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x420085fa: transfer_read_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:145 (discriminator 3)
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x420085f7: transfer_read_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:145 (discriminator 3)
+[0m
+[0;33m0x4200a4bb: usb_host_client_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:784 (discriminator 4)
+[0m
+[0;33m0x420089cd: libusb_control_transfer at /home/kvhnuke/Github/esp32/main/class_driver.c:221
+[0m
+[0;33m0x42008a53: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:235
+[0m
+[0;33m0x42008af9: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/class_driver.c:292
+[0m
+[0;33m0x42009098: action_get_str_desc at /home/kvhnuke/Github/esp32/main/class_driver.c:523 (discriminator 2)
+[0m
+[0;33m0x4200919a: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:590
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m

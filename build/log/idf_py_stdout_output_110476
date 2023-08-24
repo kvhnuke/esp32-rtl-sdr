@@ -1,0 +1,9 @@
+[1/4] Performing build step for 'bootloader'
+[1/1] cd /home/kvhnuke/Github/esp32/build/bootloader/esp-idf/esptool_py && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/kvhnuke/Github/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x52c0 bytes. 0x2d40 bytes (35%) free.
+[1/2] cd /home/kvhnuke/Github/esp32/build && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/tools/mkdfu.py write -o /home/kvhnuke/Github/esp32/build/dfu.bin --json /home/kvhnuke/Github/esp32/build/flasher_args.json --pid 9 --flash-size 2MB
+Adding flash chip parameters file with flash_size = 2MB
+Adding bootloader/bootloader.bin at 0x0
+Adding partition_table/partition-table.bin at 0x8000
+Adding usb_host_lib_example.bin at 0x10000
+"/home/kvhnuke/Github/esp32/build/dfu.bin" has been written. You may proceed with DFU flashing.

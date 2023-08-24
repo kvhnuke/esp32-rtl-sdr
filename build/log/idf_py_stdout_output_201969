@@ -1,0 +1,678 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3820,len:0x1718
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc20
+load:0x403cc700,len:0x2f20
+entry 0x403c9910
+[0;32mI (27) boot: ESP-IDF v5.2-dev-2164-g3befd5fff7 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 17 2023 12:14:45[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.1[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0e380h ( 58240) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=0001e3a8 vaddr=3fc92200 size=01c70h (  7280) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=20948h (133448) map[0m
+[0;32mI (142) esp_image: segment 3: paddr=00040970 vaddr=3fc93e70 size=00c68h (  3176) load[0m
+[0;32mI (143) esp_image: segment 4: paddr=000415e0 vaddr=40374000 size=0e1e0h ( 57824) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (166) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (178) cpu_start: Pro cpu up.[0m
+[0;32mI (178) cpu_start: Starting app cpu, entry point is 0x40375208[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (196) cpu_start: Pro cpu start user code[0m
+[0;32mI (196) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (197) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     usb_host_lib_example[0m
+[0;32mI (206) cpu_start: App version:      1[0m
+[0;32mI (210) cpu_start: Compile time:     Aug 17 2023 12:14:37[0m
+[0;32mI (216) cpu_start: ELF file SHA256:  2cf7cb9a6...[0m
+[0;32mI (221) cpu_start: ESP-IDF:          v5.2-dev-2164-g3befd5fff7[0m
+[0;32mI (228) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (233) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (242) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (249) heap_init: At 3FC95358 len 000543B8 (336 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (262) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (268) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (276) spi_flash: detected chip: generic[0m
+[0;32mI (279) spi_flash: flash io: dio[0m
+[0;33mW (283) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (297) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (303) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (311) app_start: Starting scheduler on CPU0[0m
+[0;32mI (315) app_start: Starting scheduler on CPU1[0m
+[0;32mI (315) main_task: Started on CPU0[0m
+[0;32mI (325) main_task: Calling app_main()[0m
+[0;32mI (325) DAEMON: Installing USB Host Library[0m
+[0;32mI (365) CLASS: Registering Client[0m
+[0;32mI (865) CLASS: Opening device at address 1[0m
+[0;32mI (865) CLASS: Getting device information[0m
+[0;32mI (865) CLASS: 	Full speed[0m
+[0;32mI (865) CLASS: 	bConfigurationValue 1[0m
+[0;32mI (865) CLASS: Getting device descriptor[0m
+[0;32mI (875) ADSB: Found ADSB Device[0m
+*** Device descriptor ***
+bLength 18
+bDescriptorType 1
+bcdUSB 2.00
+bDeviceClass 0x0
+bDeviceSubClass 0x0
+bDeviceProtocol 0x0
+bMaxPacketSize0 64
+idVendor 0xbda
+idProduct 0x2838
+bcdDevice 1.00
+iManufacturer 1
+iProduct 2
+iSerialNumber 3
+bNumConfigurations 1
+[0;32mI (895) CLASS: Getting config descriptor[0m
+*** Configuration descriptor ***
+bLength 9
+bDescriptorType 2
+wTotalLength 34
+bNumInterfaces 2
+bConfigurationValue 1
+iConfiguration 4
+bmAttributes 0x80
+bMaxPower 500mA
+	*** Interface descriptor ***
+	bLength 9
+	bDescriptorType 4
+	bInterfaceNumber 0
+	bAlternateSetting 0
+	bNumEndpoints 1
+	bInterfaceClass 0xff
+	bInterfaceSubClass 0xff
+	bInterfaceProtocol 0xff
+	iInterface 5
+		*** Endpoint descriptor ***
+		bLength 7
+		bDescriptorType 5
+		bEndpointAddress 0x81	EP 1 IN
+		bmAttributes 0x2	BULK
+		wMaxPacketSize 64
+		bInterval 1
+	*** Interface descriptor ***
+	bLength 9
+	bDescriptorType 4
+	bInterfaceNumber 1
+	bAlternateSetting 0
+	bNumEndpoints 0
+	bInterfaceClass 0xff
+	bInterfaceSubClass 0xff
+	bInterfaceProtocol 0xff
+	iInterface 5
+[0;32mI (965) CLASS: Getting Manufacturer string descriptor[0m
+Realtek
+[0;32mI (975) CLASS: Getting Product string descriptor[0m
+RTL2838UHIDIR
+[0;32mI (985) CLASS: Getting Serial Number string descriptor[0m
+00000001
+[0;32mI (985) ADSB: Doing ADSB Things[0m
+[0;32mI (995) ADSB: rtlsdr_demod_read_reg response 212, RTYPE 192[0m
+[0;32mI (995) ADSB: rtlsdr_demod_read_reg response 84, RTYPE 192[0m
+[0;32mI (1005) ADSB: rtlsdr_demod_read_reg response 20, RTYPE 192[0m
+[0;32mI (1015) ADSB: rtlsdr_demod_read_reg response 212, RTYPE 192[0m
+[0;32mI (1015) ADSB: rtlsdr_demod_read_reg response 148, RTYPE 192[0m
+[0;32mI (1025) ADSB: rtlsdr_demod_read_reg response 84, RTYPE 192[0m
+[0;32mI (1035) ADSB: rtlsdr_demod_read_reg response 20, RTYPE 192[0m
+[0;32mI (1035) ADSB: rtlsdr_demod_read_reg response 212, RTYPE 192[0m
+[0;32mI (1045) ADSB: rtlsdr_demod_read_reg response 148, RTYPE 192[0m
+[0;32mI (1045) ADSB: rtlsdr_demod_read_reg response 84, RTYPE 192[0m
+[0;32mI (1055) ADSB: rtlsdr_demod_read_reg response 20, RTYPE 192[0m
+[0;32mI (1065) ADSB: rtlsdr_demod_read_reg response 212, RTYPE 192[0m
+[0;32mI (1065) ADSB: rtlsdr_demod_read_reg response 148, RTYPE 192[0m
+[0;32mI (1075) ADSB: rtlsdr_demod_read_reg response 84, RTYPE 192[0m
+[0;32mI (1085) ADSB: rtlsdr_demod_read_reg response 20, RTYPE 192[0m
+[0;32mI (1085) ADSB: rtlsdr_demod_read_reg response 212, RTYPE 192[0m
+[0;32mI (1095) ADSB: rtlsdr_demod_read_reg response 148, RTYPE 192[0m
+[0;32mI (1095) ADSB: rtlsdr_demod_read_reg response 84, RTYPE 192[0m
+[0;32mI (1105) ADSB: rtlsdr_demod_read_reg response 20, RTYPE 192[0m
+[0;32mI (1115) ADSB: rtlsdr_demod_read_reg response 212, RTYPE 192[0m
+[0;32mI (1115) ADSB: rtlsdr_demod_read_reg response 148, RTYPE 192[0m
+[0;32mI (2125) ADSB: here 0[0m
+[0;32mI (3125) ADSB: here 0[0m
+[0;32mI (4125) ADSB: here 0[0m
+[0;32mI (5125) ADSB: here 0[0m
+[0;32mI (6125) ADSB: here 0[0m
+[0;32mI (7125) ADSB: here 0[0m
+[0;32mI (8125) ADSB: here 0[0m
+[0;32mI (9125) ADSB: here 0[0m
+[0;32mI (10125) ADSB: here 0[0m
+[0;32mI (11125) ADSB: here 0[0m
+[0;32mI (12125) ADSB: here 0[0m
+[0;32mI (13125) ADSB: here 0[0m
+[0;32mI (14125) ADSB: here 0[0m
+[0;32mI (15125) ADSB: here 0[0m
+[0;32mI (16125) ADSB: here 0[0m
+[0;32mI (17125) ADSB: here 0[0m
+[0;32mI (18125) ADSB: here 0[0m
+[0;32mI (19125) ADSB: here 0[0m
+[0;32mI (20125) ADSB: here 0[0m
+[0;32mI (21125) ADSB: here 0[0m
+[0;32mI (22125) ADSB: here 0[0m
+[0;32mI (23125) ADSB: here 0[0m
+[0;32mI (24125) ADSB: here 0[0m
+[0;32mI (25125) ADSB: here 0[0m
+[0;32mI (26125) ADSB: here 0[0m
+[0;32mI (27125) ADSB: here 0[0m
+[0;32mI (28125) ADSB: here 0[0m
+[0;32mI (29125) ADSB: here 0[0m
+[0;32mI (30125) ADSB: here 0[0m
+[0;32mI (31125) ADSB: here 0[0m
+[0;32mI (32125) ADSB: here 0[0m
+[0;32mI (33125) ADSB: here 0[0m
+[0;32mI (34125) ADSB: here 0[0m
+[0;32mI (35125) ADSB: here 0[0m
+[0;32mI (36125) ADSB: here 0[0m
+[0;32mI (37125) ADSB: here 0[0m
+[0;32mI (38125) ADSB: here 0[0m
+[0;32mI (39125) ADSB: here 0[0m
+[0;32mI (40125) ADSB: here 0[0m
+[0;32mI (41125) ADSB: here 0[0m
+[0;32mI (42125) ADSB: here 0[0m
+[0;32mI (43125) ADSB: here 0[0m
+[0;32mI (44125) ADSB: here 0[0m
+[0;32mI (45125) ADSB: here 0[0m
+[0;32mI (46125) ADSB: here 0[0m
+[0;32mI (47125) ADSB: here 0[0m
+[0;32mI (48125) ADSB: here 0[0m
+[0;32mI (49125) ADSB: here 0[0m
+[0;32mI (50125) ADSB: here 0[0m
+[0;32mI (51125) ADSB: here 0[0m
+[0;32mI (52125) ADSB: here 0[0m
+[0;32mI (53125) ADSB: here 0[0m
+[0;32mI (54125) ADSB: here 0[0m
+[0;32mI (55125) ADSB: here 0[0m
+[0;32mI (56125) ADSB: here 0[0m
+[0;32mI (57125) ADSB: here 0[0m
+[0;32mI (58125) ADSB: here 0[0m
+[0;32mI (59125) ADSB: here 0[0m
+[0;32mI (60125) ADSB: here 0[0m
+[0;32mI (61125) ADSB: here 0[0m
+[0;32mI (62125) ADSB: here 0[0m
+[0;32mI (63125) ADSB: here 0[0m
+[0;32mI (64125) ADSB: here 0[0m
+[0;32mI (65125) ADSB: here 0[0m
+[0;32mI (66125) ADSB: here 0[0m
+[0;32mI (67125) ADSB: here 0[0m
+[0;32mI (68125) ADSB: here 0[0m
+[0;32mI (69125) ADSB: here 0[0m
+[0;32mI (70125) ADSB: here 0[0m
+[0;32mI (71125) ADSB: here 0[0m
+[0;32mI (72125) ADSB: here 0[0m
+[0;32mI (73125) ADSB: here 0[0m
+[0;32mI (74125) ADSB: here 0[0m
+[0;32mI (75125) ADSB: here 0[0m
+[0;32mI (76125) ADSB: here 0[0m
+[0;32mI (77125) ADSB: here 0[0m
+[0;32mI (78125) ADSB: here 0[0m
+[0;32mI (79125) ADSB: here 0[0m
+[0;32mI (80125) ADSB: here 0[0m
+[0;32mI (81125) ADSB: here 0[0m
+[0;32mI (82125) ADSB: here 0[0m
+[0;32mI (83125) ADSB: here 0[0m
+[0;32mI (84125) ADSB: here 0[0m
+[0;32mI (85125) ADSB: here 0[0m
+[0;32mI (86125) ADSB: here 0[0m
+[0;32mI (87125) ADSB: here 0[0m
+[0;32mI (88125) ADSB: here 0[0m
+[0;32mI (89125) ADSB: here 0[0m
+[0;32mI (90125) ADSB: here 0[0m
+[0;32mI (91125) ADSB: here 0[0m
+[0;32mI (92125) ADSB: here 0[0m
+[0;32mI (93125) ADSB: here 0[0m
+[0;32mI (94125) ADSB: here 0[0m
+[0;32mI (95125) ADSB: here 0[0m
+[0;32mI (96125) ADSB: here 0[0m
+[0;32mI (97125) ADSB: here 0[0m
+[0;32mI (98125) ADSB: here 0[0m
+[0;32mI (99125) ADSB: here 0[0m
+[0;32mI (100125) ADSB: here 0[0m
+[0;32mI (101125) ADSB: here 0[0m
+[0;32mI (102125) ADSB: here 0[0m
+[0;32mI (103125) ADSB: here 0[0m
+[0;32mI (104125) ADSB: here 0[0m
+[0;32mI (105125) ADSB: here 0[0m
+[0;32mI (106125) ADSB: here 0[0m
+[0;32mI (107125) ADSB: here 0[0m
+[0;32mI (108125) ADSB: here 0[0m
+[0;32mI (109125) ADSB: here 0[0m
+[0;32mI (110125) ADSB: here 0[0m
+[0;32mI (111125) ADSB: here 0[0m
+[0;32mI (112125) ADSB: here 0[0m
+[0;32mI (113125) ADSB: here 0[0m
+[0;32mI (114125) ADSB: here 0[0m
+[0;32mI (115125) ADSB: here 0[0m
+[0;32mI (116125) ADSB: here 0[0m
+[0;32mI (117125) ADSB: here 0[0m
+[0;32mI (118125) ADSB: here 0[0m
+[0;32mI (119125) ADSB: here 0[0m
+[0;32mI (120125) ADSB: here 0[0m
+[0;32mI (121125) ADSB: here 0[0m
+[0;32mI (122125) ADSB: here 0[0m
+[0;32mI (123125) ADSB: here 0[0m
+[0;32mI (124125) ADSB: here 0[0m
+[0;32mI (125125) ADSB: here 0[0m
+[0;32mI (126125) ADSB: here 0[0m
+[0;32mI (127125) ADSB: here 0[0m
+[0;32mI (128125) ADSB: here 0[0m
+[0;32mI (129125) ADSB: here 0[0m
+[0;32mI (130125) ADSB: here 0[0m
+[0;32mI (131125) ADSB: here 0[0m
+[0;32mI (132125) ADSB: here 0[0m
+[0;32mI (133125) ADSB: here 0[0m
+[0;32mI (134125) ADSB: here 0[0m
+[0;32mI (135125) ADSB: here 0[0m
+[0;32mI (136125) ADSB: here 0[0m
+[0;32mI (137125) ADSB: here 0[0m
+[0;32mI (138125) ADSB: here 0[0m
+[0;32mI (139125) ADSB: here 0[0m
+[0;32mI (140125) ADSB: here 0[0m
+[0;32mI (141125) ADSB: here 0[0m
+[0;32mI (142125) ADSB: here 0[0m
+[0;32mI (143125) ADSB: here 0[0m
+[0;32mI (144125) ADSB: here 0[0m
+[0;32mI (145125) ADSB: here 0[0m
+[0;32mI (146125) ADSB: here 0[0m
+[0;32mI (147125) ADSB: here 0[0m
+[0;32mI (148125) ADSB: here 0[0m
+[0;32mI (149125) ADSB: here 0[0m
+[0;32mI (150125) ADSB: here 0[0m
+[0;32mI (151125) ADSB: here 0[0m
+[0;32mI (152125) ADSB: here 0[0m
+[0;32mI (153125) ADSB: here 0[0m
+[0;32mI (154125) ADSB: here 0[0m
+[0;32mI (155125) ADSB: here 0[0m
+[0;32mI (156125) ADSB: here 0[0m
+[0;32mI (157125) ADSB: here 0[0m
+[0;32mI (158125) ADSB: here 0[0m
+[0;32mI (159125) ADSB: here 0[0m
+[0;32mI (160125) ADSB: here 0[0m
+[0;32mI (161125) ADSB: here 0[0m
+[0;32mI (162125) ADSB: here 0[0m
+[0;32mI (163125) ADSB: here 0[0m
+[0;32mI (164125) ADSB: here 0[0m
+[0;32mI (165125) ADSB: here 0[0m
+[0;32mI (166125) ADSB: here 0[0m
+[0;32mI (167125) ADSB: here 0[0m
+[0;32mI (168125) ADSB: here 0[0m
+[0;32mI (169125) ADSB: here 0[0m
+[0;32mI (170125) ADSB: here 0[0m
+[0;32mI (171125) ADSB: here 0[0m
+[0;32mI (172125) ADSB: here 0[0m
+[0;32mI (173125) ADSB: here 0[0m
+[0;32mI (174125) ADSB: here 0[0m
+[0;32mI (175125) ADSB: here 0[0m
+[0;32mI (176125) ADSB: here 0[0m
+[0;32mI (177125) ADSB: here 0[0m
+[0;32mI (178125) ADSB: here 0[0m
+[0;32mI (179125) ADSB: here 0[0m
+[0;32mI (180125) ADSB: here 0[0m
+[0;32mI (181125) ADSB: here 0[0m
+[0;32mI (182125) ADSB: here 0[0m
+[0;32mI (183125) ADSB: here 0[0m
+[0;32mI (184125) ADSB: here 0[0m
+[0;32mI (185125) ADSB: here 0[0m
+[0;32mI (186125) ADSB: here 0[0m
+[0;32mI (187125) ADSB: here 0[0m
+[0;32mI (188125) ADSB: here 0[0m
+[0;32mI (189125) ADSB: here 0[0m
+[0;32mI (190125) ADSB: here 0[0m
+[0;32mI (191125) ADSB: here 0[0m
+[0;32mI (192125) ADSB: here 0[0m
+[0;32mI (193125) ADSB: here 0[0m
+[0;32mI (194125) ADSB: here 0[0m
+[0;32mI (195125) ADSB: here 0[0m
+[0;32mI (196125) ADSB: here 0[0m
+[0;32mI (197125) ADSB: here 0[0m
+[0;32mI (198125) ADSB: here 0[0m
+[0;32mI (199125) ADSB: here 0[0m
+[0;32mI (200125) ADSB: here 0[0m
+[0;32mI (201125) ADSB: here 0[0m
+[0;32mI (202125) ADSB: here 0[0m
+[0;32mI (203125) ADSB: here 0[0m
+[0;32mI (204125) ADSB: here 0[0m
+[0;32mI (205125) ADSB: here 0[0m
+[0;32mI (206125) ADSB: here 0[0m
+[0;32mI (207125) ADSB: here 0[0m
+[0;32mI (208125) ADSB: here 0[0m
+[0;32mI (209125) ADSB: here 0[0m
+[0;32mI (210125) ADSB: here 0[0m
+[0;32mI (211125) ADSB: here 0[0m
+[0;32mI (212125) ADSB: here 0[0m
+[0;32mI (213125) ADSB: here 0[0m
+[0;32mI (214125) ADSB: here 0[0m
+[0;32mI (215125) ADSB: here 0[0m
+[0;32mI (216125) ADSB: here 0[0m
+[0;32mI (217125) ADSB: here 0[0m
+[0;32mI (218125) ADSB: here 0[0m
+[0;32mI (219125) ADSB: here 0[0m
+[0;32mI (220125) ADSB: here 0[0m
+[0;32mI (221125) ADSB: here 0[0m
+[0;32mI (222125) ADSB: here 0[0m
+[0;32mI (223125) ADSB: here 0[0m
+[0;32mI (224125) ADSB: here 0[0m
+[0;32mI (225125) ADSB: here 0[0m
+[0;32mI (226125) ADSB: here 0[0m
+[0;32mI (227125) ADSB: here 0[0m
+[0;32mI (228125) ADSB: here 0[0m
+[0;32mI (229125) ADSB: here 0[0m
+[0;32mI (230125) ADSB: here 0[0m
+[0;32mI (231125) ADSB: here 0[0m
+[0;32mI (232125) ADSB: here 0[0m
+[0;32mI (233125) ADSB: here 0[0m
+[0;32mI (234125) ADSB: here 0[0m
+[0;32mI (235125) ADSB: here 0[0m
+[0;32mI (236125) ADSB: here 0[0m
+[0;32mI (237125) ADSB: here 0[0m
+[0;32mI (238125) ADSB: here 0[0m
+[0;32mI (239125) ADSB: here 0[0m
+[0;32mI (240125) ADSB: here 0[0m
+[0;32mI (241125) ADSB: here 0[0m
+[0;32mI (242125) ADSB: here 0[0m
+[0;32mI (243125) ADSB: here 0[0m
+[0;32mI (244125) ADSB: here 0[0m
+[0;32mI (245125) ADSB: here 0[0m
+[0;32mI (246125) ADSB: here 0[0m
+[0;32mI (247125) ADSB: here 0[0m
+[0;32mI (248125) ADSB: here 0[0m
+[0;32mI (249125) ADSB: here 0[0m
+[0;32mI (250125) ADSB: here 0[0m
+[0;32mI (251125) ADSB: here 0[0m
+[0;32mI (252125) ADSB: here 0[0m
+[0;32mI (253125) ADSB: here 0[0m
+[0;32mI (254125) ADSB: here 0[0m
+[0;32mI (255125) ADSB: here 0[0m
+[0;32mI (256125) ADSB: here 0[0m
+[0;32mI (257125) ADSB: here 0[0m
+[0;32mI (258125) ADSB: here 0[0m
+[0;32mI (259125) ADSB: here 0[0m
+[0;32mI (260125) ADSB: here 0[0m
+[0;32mI (261125) ADSB: here 0[0m
+[0;32mI (262125) ADSB: here 0[0m
+[0;32mI (263125) ADSB: here 0[0m
+[0;32mI (264125) ADSB: here 0[0m
+[0;32mI (265125) ADSB: here 0[0m
+[0;32mI (266125) ADSB: here 0[0m
+[0;32mI (267125) ADSB: here 0[0m
+[0;32mI (268125) ADSB: here 0[0m
+[0;32mI (269125) ADSB: here 0[0m
+[0;32mI (270125) ADSB: here 0[0m
+[0;32mI (271125) ADSB: here 0[0m
+[0;32mI (272125) ADSB: here 0[0m
+[0;32mI (273125) ADSB: here 0[0m
+[0;32mI (274125) ADSB: here 0[0m
+[0;32mI (275125) ADSB: here 0[0m
+[0;32mI (276125) ADSB: here 0[0m
+[0;32mI (277125) ADSB: here 0[0m
+[0;32mI (278125) ADSB: here 0[0m
+[0;32mI (279125) ADSB: here 0[0m
+[0;32mI (280125) ADSB: here 0[0m
+[0;32mI (281125) ADSB: here 0[0m
+[0;32mI (282125) ADSB: here 0[0m
+[0;32mI (283125) ADSB: here 0[0m
+[0;32mI (284125) ADSB: here 0[0m
+[0;32mI (285125) ADSB: here 0[0m
+[0;32mI (286125) ADSB: here 0[0m
+[0;32mI (287125) ADSB: here 0[0m
+[0;32mI (288125) ADSB: here 0[0m
+[0;32mI (289125) ADSB: here 0[0m
+[0;32mI (290125) ADSB: here 0[0m
+[0;32mI (291125) ADSB: here 0[0m
+[0;32mI (292125) ADSB: here 0[0m
+[0;32mI (293125) ADSB: here 0[0m
+[0;32mI (294125) ADSB: here 0[0m
+[0;32mI (295125) ADSB: here 0[0m
+[0;32mI (296125) ADSB: here 0[0m
+[0;32mI (297125) ADSB: here 0[0m
+[0;32mI (298125) ADSB: here 0[0m
+[0;32mI (299125) ADSB: here 0[0m
+[0;32mI (300125) ADSB: here 0[0m
+[0;32mI (301125) ADSB: here 0[0m
+[0;32mI (302125) ADSB: here 0[0m
+[0;32mI (303125) ADSB: here 0[0m
+[0;32mI (304125) ADSB: here 0[0m
+[0;32mI (305125) ADSB: here 0[0m
+[0;32mI (306125) ADSB: here 0[0m
+[0;32mI (307125) ADSB: here 0[0m
+[0;32mI (308125) ADSB: here 0[0m
+[0;32mI (309125) ADSB: here 0[0m
+[0;32mI (310125) ADSB: here 0[0m
+[0;32mI (311125) ADSB: here 0[0m
+[0;32mI (312125) ADSB: here 0[0m
+[0;32mI (313125) ADSB: here 0[0m
+[0;32mI (314125) ADSB: here 0[0m
+[0;32mI (315125) ADSB: here 0[0m
+[0;32mI (316125) ADSB: here 0[0m
+[0;32mI (317125) ADSB: here 0[0m
+[0;32mI (318125) ADSB: here 0[0m
+[0;32mI (319125) ADSB: here 0[0m
+[0;32mI (320125) ADSB: here 0[0m
+[0;32mI (321125) ADSB: here 0[0m
+[0;32mI (322125) ADSB: here 0[0m
+[0;32mI (323125) ADSB: here 0[0m
+[0;32mI (324125) ADSB: here 0[0m
+[0;32mI (325125) ADSB: here 0[0m
+[0;32mI (326125) ADSB: here 0[0m
+[0;32mI (327125) ADSB: here 0[0m
+[0;32mI (328125) ADSB: here 0[0m
+[0;32mI (329125) ADSB: here 0[0m
+[0;32mI (330125) ADSB: here 0[0m
+[0;32mI (331125) ADSB: here 0[0m
+[0;32mI (332125) ADSB: here 0[0m
+[0;32mI (333125) ADSB: here 0[0m
+[0;32mI (334125) ADSB: here 0[0m
+[0;32mI (335125) ADSB: here 0[0m
+[0;32mI (336125) ADSB: here 0[0m
+[0;32mI (337125) ADSB: here 0[0m
+[0;32mI (338125) ADSB: here 0[0m
+[0;32mI (339125) ADSB: here 0[0m
+[0;32mI (340125) ADSB: here 0[0m
+[0;32mI (341125) ADSB: here 0[0m
+[0;32mI (342125) ADSB: here 0[0m
+[0;32mI (343125) ADSB: here 0[0m
+[0;32mI (344125) ADSB: here 0[0m
+[0;32mI (345125) ADSB: here 0[0m
+[0;32mI (346125) ADSB: here 0[0m
+[0;32mI (347125) ADSB: here 0[0m
+[0;32mI (348125) ADSB: here 0[0m
+[0;32mI (349125) ADSB: here 0[0m
+[0;32mI (350125) ADSB: here 0[0m
+[0;32mI (351125) ADSB: here 0[0m
+[0;32mI (352125) ADSB: here 0[0m
+[0;32mI (353125) ADSB: here 0[0m
+[0;32mI (354125) ADSB: here 0[0m
+[0;32mI (355125) ADSB: here 0[0m
+[0;32mI (356125) ADSB: here 0[0m
+[0;32mI (357125) ADSB: here 0[0m
+[0;32mI (358125) ADSB: here 0[0m
+[0;32mI (359125) ADSB: here 0[0m
+[0;32mI (360125) ADSB: here 0[0m
+[0;32mI (361125) ADSB: here 0[0m
+[0;32mI (362125) ADSB: here 0[0m
+[0;32mI (363125) ADSB: here 0[0m
+[0;32mI (364125) ADSB: here 0[0m
+[0;32mI (365125) ADSB: here 0[0m
+[0;32mI (366125) ADSB: here 0[0m
+[0;32mI (367125) ADSB: here 0[0m
+[0;32mI (368125) ADSB: here 0[0m
+[0;32mI (369125) ADSB: here 0[0m
+[0;32mI (370125) ADSB: here 0[0m
+[0;32mI (371125) ADSB: here 0[0m
+[0;32mI (372125) ADSB: here 0[0m
+[0;32mI (373125) ADSB: here 0[0m
+[0;32mI (374125) ADSB: here 0[0m
+[0;32mI (375125) ADSB: here 0[0m
+[0;32mI (376125) ADSB: here 0[0m
+[0;32mI (377125) ADSB: here 0[0m
+[0;32mI (378125) ADSB: here 0[0m
+[0;32mI (379125) ADSB: here 0[0m
+[0;32mI (380125) ADSB: here 0[0m
+[0;32mI (381125) ADSB: here 0[0m
+[0;32mI (382125) ADSB: here 0[0m
+[0;32mI (383125) ADSB: here 0[0m
+[0;32mI (384125) ADSB: here 0[0m
+[0;32mI (385125) ADSB: here 0[0m
+[0;32mI (386125) ADSB: here 0[0m
+[0;32mI (387125) ADSB: here 0[0m
+[0;32mI (388125) ADSB: here 0[0m
+[0;32mI (389125) ADSB: here 0[0m
+[0;32mI (390125) ADSB: here 0[0m
+[0;32mI (391125) ADSB: here 0[0m
+[0;32mI (392125) ADSB: here 0[0m
+[0;32mI (393125) ADSB: here 0[0m
+[0;32mI (394125) ADSB: here 0[0m
+[0;32mI (395125) ADSB: here 0[0m
+[0;32mI (396125) ADSB: here 0[0m
+[0;32mI (397125) ADSB: here 0[0m
+[0;32mI (398125) ADSB: here 0[0m
+[0;32mI (399125) ADSB: here 0[0m
+[0;32mI (400125) ADSB: here 0[0m
+[0;32mI (401125) ADSB: here 0[0m
+[0;32mI (402125) ADSB: here 0[0m
+[0;32mI (403125) ADSB: here 0[0m
+[0;32mI (404125) ADSB: here 0[0m
+[0;32mI (405125) ADSB: here 0[0m
+[0;32mI (406125) ADSB: here 0[0m
+[0;32mI (407125) ADSB: here 0[0m
+[0;32mI (408125) ADSB: here 0[0m
+[0;32mI (409125) ADSB: here 0[0m
+[0;32mI (410125) ADSB: here 0[0m
+[0;32mI (411125) ADSB: here 0[0m
+[0;32mI (412125) ADSB: here 0[0m
+[0;32mI (413125) ADSB: here 0[0m
+[0;32mI (414125) ADSB: here 0[0m
+[0;32mI (415125) ADSB: here 0[0m
+[0;32mI (416125) ADSB: here 0[0m
+[0;32mI (417125) ADSB: here 0[0m
+[0;32mI (418125) ADSB: here 0[0m
+[0;32mI (419125) ADSB: here 0[0m
+[0;32mI (420125) ADSB: here 0[0m
+[0;32mI (421125) ADSB: here 0[0m
+[0;32mI (422125) ADSB: here 0[0m
+[0;32mI (423125) ADSB: here 0[0m
+[0;32mI (424125) ADSB: here 0[0m
+[0;32mI (425125) ADSB: here 0[0m
+[0;32mI (426125) ADSB: here 0[0m
+[0;32mI (427125) ADSB: here 0[0m
+[0;32mI (428125) ADSB: here 0[0m
+[0;32mI (429125) ADSB: here 0[0m
+[0;32mI (430125) ADSB: here 0[0m
+[0;32mI (431125) ADSB: here 0[0m
+[0;32mI (432125) ADSB: here 0[0m
+[0;32mI (433125) ADSB: here 0[0m
+[0;32mI (434125) ADSB: here 0[0m
+[0;32mI (435125) ADSB: here 0[0m
+[0;32mI (436125) ADSB: here 0[0m
+[0;32mI (437125) ADSB: here 0[0m
+[0;32mI (438125) ADSB: here 0[0m
+[0;32mI (439125) ADSB: here 0[0m
+[0;32mI (440125) ADSB: here 0[0m
+[0;32mI (441125) ADSB: here 0[0m
+[0;32mI (442125) ADSB: here 0[0m
+[0;32mI (443125) ADSB: here 0[0m
+[0;32mI (444125) ADSB: here 0[0m
+[0;32mI (445125) ADSB: here 0[0m
+[0;32mI (446125) ADSB: here 0[0m
+[0;32mI (447125) ADSB: here 0[0m
+[0;32mI (448125) ADSB: here 0[0m
+[0;32mI (449125) ADSB: here 0[0m
+[0;32mI (450125) ADSB: here 0[0m
+[0;32mI (451125) ADSB: here 0[0m
+[0;32mI (452125) ADSB: here 0[0m
+[0;32mI (453125) ADSB: here 0[0m
+[0;32mI (454125) ADSB: here 0[0m
+[0;32mI (455125) ADSB: here 0[0m
+[0;32mI (456125) ADSB: here 0[0m
+[0;32mI (457125) ADSB: here 0[0m
+[0;32mI (458125) ADSB: here 0[0m
+[0;32mI (459125) ADSB: here 0[0m
+[0;32mI (460125) ADSB: here 0[0m
+[0;32mI (461125) ADSB: here 0[0m
+[0;32mI (462125) ADSB: here 0[0m
+[0;32mI (463125) ADSB: here 0[0m
+[0;32mI (464125) ADSB: here 0[0m
+[0;32mI (465125) ADSB: here 0[0m
+[0;32mI (466125) ADSB: here 0[0m
+[0;32mI (467125) ADSB: here 0[0m
+[0;32mI (468125) ADSB: here 0[0m
+[0;32mI (469125) ADSB: here 0[0m
+[0;32mI (470125) ADSB: here 0[0m
+[0;32mI (471125) ADSB: here 0[0m
+[0;32mI (472125) ADSB: here 0[0m
+[0;32mI (473125) ADSB: here 0[0m
+[0;32mI (474125) ADSB: here 0[0m
+[0;32mI (475125) ADSB: here 0[0m
+[0;32mI (476125) ADSB: here 0[0m
+[0;32mI (477125) ADSB: here 0[0m
+[0;32mI (478125) ADSB: here 0[0m
+[0;32mI (479125) ADSB: here 0[0m
+[0;32mI (480125) ADSB: here 0[0m
+[0;32mI (481125) ADSB: here 0[0m
+[0;32mI (482125) ADSB: here 0[0m
+[0;32mI (483125) ADSB: here 0[0m
+[0;32mI (484125) ADSB: here 0[0m
+[0;32mI (485125) ADSB: here 0[0m
+[0;32mI (486125) ADSB: here 0[0m
+[0;32mI (487125) ADSB: here 0[0m
+[0;32mI (488125) ADSB: here 0[0m
+[0;32mI (489125) ADSB: here 0[0m
+[0;32mI (490125) ADSB: here 0[0m
+[0;32mI (491125) ADSB: here 0[0m
+[0;32mI (492125) ADSB: here 0[0m
+[0;32mI (493125) ADSB: here 0[0m
+[0;32mI (494125) ADSB: here 0[0m
+[0;32mI (495125) ADSB: here 0[0m
+[0;32mI (496125) ADSB: here 0[0m
+[0;32mI (497125) ADSB: here 0[0m
+[0;32mI (498125) ADSB: here 0[0m
+[0;32mI (499125) ADSB: here 0[0m
+[0;32mI (500125) ADSB: here 0[0m
+[0;32mI (501125) ADSB: here 0[0m
+[0;32mI (502125) ADSB: here 0[0m
+[0;32mI (503125) ADSB: here 0[0m
+[0;32mI (504125) ADSB: here 0[0m
+[0;32mI (505125) ADSB: here 0[0m
+[0;32mI (506125) ADSB: here 0[0m
+[0;32mI (507125) ADSB: here 0[0m
+[0;32mI (508125) ADSB: here 0[0m
+[0;32mI (509125) ADSB: here 0[0m
+[0;32mI (510125) ADSB: here 0[0m
+[0;32mI (511125) ADSB: here 0[0m
+[0;32mI (512125) ADSB: here 0[0m
+[0;32mI (513125) ADSB: here 0[0m
+[0;32mI (514125) ADSB: here 0[0m
+[0;32mI (515125) ADSB: here 0[0m
+[0;32mI (516125) ADSB: here 0[0m
+[0;32mI (517125) ADSB: here 0[0m
+[0;32mI (518125) ADSB: here 0[0m
+[0;32mI (519125) ADSB: here 0[0m
+[0;32mI (520125) ADSB: here 0[0m
+[0;32mI (521125) ADSB: here 0[0m
+[0;32mI (522125) ADSB: here 0[0m
+[0;32mI (523125) ADSB: here 0[0m
+[0;32mI (524125) ADSB: here 0[0m
+[0;32mI (525125) ADSB: here 0[0m
+[0;32mI (526125) ADSB: here 0[0m
+[0;32mI (527125) ADSB: here 0[0m
+[0;32mI (528125) ADSB: here 0[0m
+[0;32mI (529125) ADSB: here 0[0m
+[0;32mI (530125) ADSB: here 0[0m
+[0;32mI (531125) ADSB: here 0[0m

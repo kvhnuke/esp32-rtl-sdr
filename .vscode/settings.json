@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32s3",
+  "files.associations": {
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "chrono": "c",
+    "lib-sdr.h": "c",
+    "rtl-sdr.h": "c",
+    "esp_libusb.h": "c"
+  }
+}

@@ -1,0 +1,9 @@
+CMake Error at /home/kvhnuke/esp/esp-idf/tools/cmake/component.cmake:313 (message):
+  Include directory '/home/kvhnuke/Github/esp32/main/CFLAGS' is not a
+  directory.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/component.cmake:481 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

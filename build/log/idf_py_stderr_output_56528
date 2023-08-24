@@ -1,0 +1,5 @@
+CMake Error at main/CMakeLists.txt:7 (set_source_files_properties):
+  set_source_files_properties called with incorrect number of arguments.
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

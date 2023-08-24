@@ -1,0 +1,199 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3820,len:0x1718
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc20
+load:0x403cc700,len:0x2f20
+entry 0x403c9910
+[0;32mI (27) boot: ESP-IDF v5.2-dev-2164-g3befd5fff7 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 17 2023 12:14:45[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.1[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0e340h ( 58176) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=0001e368 vaddr=3fc92200 size=01cb0h (  7344) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=208b4h (133300) map[0m
+[0;32mI (142) esp_image: segment 3: paddr=000408dc vaddr=3fc93eb0 size=00c28h (  3112) load[0m
+[0;32mI (143) esp_image: segment 4: paddr=0004150c vaddr=40374000 size=0e1e0h ( 57824) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (166) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (178) cpu_start: Pro cpu up.[0m
+[0;32mI (178) cpu_start: Starting app cpu, entry point is 0x40375208[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (196) cpu_start: Pro cpu start user code[0m
+[0;32mI (196) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (197) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     usb_host_lib_example[0m
+[0;32mI (206) cpu_start: App version:      1[0m
+[0;32mI (210) cpu_start: Compile time:     Aug 17 2023 12:14:37[0m
+[0;32mI (216) cpu_start: ELF file SHA256:  e13cf36ea...[0m
+[0;32mI (221) cpu_start: ESP-IDF:          v5.2-dev-2164-g3befd5fff7[0m
+[0;32mI (228) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (233) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (242) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (249) heap_init: At 3FC95358 len 000543B8 (336 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (262) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (268) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (276) spi_flash: detected chip: generic[0m
+[0;32mI (279) spi_flash: flash io: dio[0m
+[0;33mW (283) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (297) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (303) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (311) app_start: Starting scheduler on CPU0[0m
+[0;32mI (315) app_start: Starting scheduler on CPU1[0m
+[0;32mI (315) main_task: Started on CPU0[0m
+[0;32mI (325) main_task: Calling app_main()[0m
+[0;32mI (325) DAEMON: Installing USB Host Library[0m
+[0;32mI (365) CLASS: Registering Client[0m
+[0;32mI (865) CLASS: Opening device at address 1[0m
+[0;32mI (865) CLASS: Getting device information[0m
+[0;32mI (865) CLASS: 	Full speed[0m
+[0;32mI (865) CLASS: 	bConfigurationValue 1[0m
+[0;32mI (865) CLASS: Getting device descriptor[0m
+[0;32mI (875) ADSB: Found ADSB Device[0m
+*** Device descriptor ***
+bLength 18
+bDescriptorType 1
+bcdUSB 2.00
+bDeviceClass 0x0
+bDeviceSubClass 0x0
+bDeviceProtocol 0x0
+bMaxPacketSize0 64
+idVendor 0xbda
+idProduct 0x2838
+bcdDevice 1.00
+iManufacturer 1
+iProduct 2
+iSerialNumber 3
+bNumConfigurations 1
+[0;32mI (895) CLASS: Getting config descriptor[0m
+*** Configuration descriptor ***
+bLength 9
+bDescriptorType 2
+wTotalLength 34
+bNumInterfaces 2
+bConfigurationValue 1
+iConfiguration 4
+bmAttributes 0x80
+bMaxPower 500mA
+	*** Interface descriptor ***
+	bLength 9
+	bDescriptorType 4
+	bInterfaceNumber 0
+	bAlternateSetting 0
+	bNumEndpoints 1
+	bInterfaceClass 0xff
+	bInterfaceSubClass 0xff
+	bInterfaceProtocol 0xff
+	iInterface 5
+		*** Endpoint descriptor ***
+		bLength 7
+		bDescriptorType 5
+		bEndpointAddress 0x81	EP 1 IN
+		bmAttributes 0x2	BULK
+		wMaxPacketSize 64
+		bInterval 1
+	*** Interface descriptor ***
+	bLength 9
+	bDescriptorType 4
+	bInterfaceNumber 1
+	bAlternateSetting 0
+	bNumEndpoints 0
+	bInterfaceClass 0xff
+	bInterfaceSubClass 0xff
+	bInterfaceProtocol 0xff
+	iInterface 5
+[0;32mI (965) CLASS: Getting Manufacturer string descriptor[0m
+Realtek
+[0;32mI (975) CLASS: Getting Product string descriptor[0m
+RTL2838UHIDIR
+[0;32mI (985) CLASS: Getting Serial Number string descriptor[0m
+00000001
+[0;32mI (985) ADSB: Doing ADSB Things[0m
+[0;32mI (995) ADSB: rtlsdr_demod_read_reg response 212[0m
+[0;32mI (995) ADSB: rtlsdr_demod_read_reg response 84[0m
+[0;32mI (1005) ADSB: rtlsdr_demod_read_reg response 20[0m
+[0;32mI (1005) ADSB: rtlsdr_demod_read_reg response 212[0m
+[0;32mI (1015) ADSB: rtlsdr_demod_read_reg response 148[0m
+[0;32mI (1015) ADSB: rtlsdr_demod_read_reg response 84[0m
+[0;32mI (1025) ADSB: rtlsdr_demod_read_reg response 20[0m
+[0;32mI (1035) ADSB: rtlsdr_demod_read_reg response 212[0m
+[0;32mI (1035) ADSB: rtlsdr_demod_read_reg response 148[0m
+[0;32mI (1045) ADSB: rtlsdr_demod_read_reg response 84[0m
+[0;32mI (1045) ADSB: rtlsdr_demod_read_reg response 20[0m
+[0;32mI (1055) ADSB: rtlsdr_demod_read_reg response 212[0m
+[0;32mI (1055) ADSB: rtlsdr_demod_read_reg response 148[0m
+[0;32mI (1065) ADSB: rtlsdr_demod_read_reg response 84[0m
+[0;32mI (1065) ADSB: rtlsdr_demod_read_reg response 20[0m
+[0;32mI (1075) ADSB: rtlsdr_demod_read_reg response 212[0m
+[0;32mI (1075) ADSB: rtlsdr_demod_read_reg response 148[0m
+[0;32mI (1085) ADSB: rtlsdr_demod_read_reg response 84[0m
+[0;32mI (1085) ADSB: rtlsdr_demod_read_reg response 20[0m
+[0;32mI (1095) ADSB: rtlsdr_demod_read_reg response 212[0m
+[0;32mI (1095) ADSB: rtlsdr_demod_read_reg response 148[0m
+[0;32mI (1105) ADSB: rtlsdr_read_array response [0m
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 10, databuffer size 10
+Transfer status 0, actual number of bytes transferred 10, databuffer size 10
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 10, databuffer size 10
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9
+Transfer status 0, actual number of bytes transferred 9, databuffer size 9

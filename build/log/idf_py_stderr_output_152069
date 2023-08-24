@@ -1,0 +1,7 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33mConnection to /dev/ttyUSB0 failed. Available ports:
+/dev/ttyS0
+/dev/ttyUSB0
+/dev/ttyACM0[0m
+[0m

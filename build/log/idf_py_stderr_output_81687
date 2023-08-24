@@ -1,0 +1,69 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x42009b95: esp_libusb_control_transfer at /home/kvhnuke/Github/esp32/main/esp_libusb.c:60 (discriminator 1)
+[0m
+[0;33m0x40379b73: _esp_error_check_failed at /home/kvhnuke/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403758ea: panic_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379b7d: esp_system_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4037fe56: abort at /home/kvhnuke/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40379b73: _esp_error_check_failed at /home/kvhnuke/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x42009b95: esp_libusb_control_transfer at /home/kvhnuke/Github/esp32/main/esp_libusb.c:60 (discriminator 1)
+[0m
+[0;33m0x42008e16: rtlsdr_write_array at /home/kvhnuke/Github/esp32/main/librtlsdr.c:422
+[0m
+[0;33m0x42008e5c: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/librtlsdr.c:443
+[0m
+[0;33m0x420097bc: rtlsdr_open at /home/kvhnuke/Github/esp32/main/librtlsdr.c:1351
+[0m
+[0;33m0x420087dd: client_event_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:44
+[0m
+[0;33m0x4200d4a7: usb_host_client_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:794
+[0m
+[0;33m0x42008b19: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:168
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x42009b95: esp_libusb_control_transfer at /home/kvhnuke/Github/esp32/main/esp_libusb.c:60 (discriminator 1)
+[0m
+[0;33m0x40379b73: _esp_error_check_failed at /home/kvhnuke/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403758ea: panic_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379b7d: esp_system_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4037fe56: abort at /home/kvhnuke/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40379b73: _esp_error_check_failed at /home/kvhnuke/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x42009b95: esp_libusb_control_transfer at /home/kvhnuke/Github/esp32/main/esp_libusb.c:60 (discriminator 1)
+[0m
+[0;33m0x42008e16: rtlsdr_write_array at /home/kvhnuke/Github/esp32/main/librtlsdr.c:422
+[0m
+[0;33m0x42008e5c: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/librtlsdr.c:443
+[0m
+[0;33m0x420097bc: rtlsdr_open at /home/kvhnuke/Github/esp32/main/librtlsdr.c:1351
+[0m
+[0;33m0x420087dd: client_event_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:44
+[0m
+[0;33m0x4200d4a7: usb_host_client_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:794
+[0m
+[0;33m0x42008b19: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:168
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m

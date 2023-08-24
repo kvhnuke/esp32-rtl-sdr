@@ -1,0 +1,181 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3820,len:0x1718
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc20
+load:0x403cc700,len:0x2f20
+entry 0x403c9910
+[0;32mI (27) boot: ESP-IDF v5.2-dev-2164-g3befd5fff7 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 17 2023 12:14:45[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v0.1[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0ebb0h ( 60336) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=0001ebd8 vaddr=3fc92200 size=01440h (  5184) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=23aach (146092) map[0m
+[0;32mI (144) esp_image: segment 3: paddr=00043ad4 vaddr=3fc93640 size=01618h (  5656) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=000450f4 vaddr=40374000 size=0e1e0h ( 57824) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (180) cpu_start: Multicore app[0m
+[0;32mI (180) cpu_start: Pro cpu up.[0m
+[0;32mI (180) cpu_start: Starting app cpu, entry point is 0x40375208[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (199) cpu_start: Pro cpu start user code[0m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (199) cpu_start: Application information:[0m
+[0;32mI (202) cpu_start: Project name:     usb_host_lib_example[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (212) cpu_start: Compile time:     Aug 17 2023 12:14:37[0m
+[0;32mI (218) cpu_start: ELF file SHA256:  4cb40efdb...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2-dev-2164-g3befd5fff7[0m
+[0;32mI (230) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FC954E0 len 00054230 (336 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (265) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (278) spi_flash: detected chip: generic[0m
+[0;32mI (282) spi_flash: flash io: dio[0m
+[0;33mW (286) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (299) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (306) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (313) app_start: Starting scheduler on CPU0[0m
+[0;32mI (318) app_start: Starting scheduler on CPU1[0m
+[0;32mI (318) main_task: Started on CPU0[0m
+[0;32mI (328) main_task: Calling app_main()[0m
+[0;32mI (328) DAEMON: Installing USB Host Library[0m
+[0;32mI (368) CLASS: Registering Client[0m
+[0;32mI (868) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (868) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (868) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (868) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (878) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (878) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (878) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (888) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (888) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (898) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (898) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (908) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (908) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (918) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (918) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (928) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (928) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (938) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (938) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (948) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (948) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (958) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (958) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (968) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (968) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (978) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (978) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (988) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (988) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (998) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (998) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1008) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1008) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1018) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1018) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1028) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1028) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1028) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1038) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1038) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1038) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1048) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1048) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1058) ADSB: rtlsdr_demod_read_reg here 1[0m
+[0;32mI (1058) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1068) ADSB: rtlsdr_demod_read_reg here 1[0m
+baseband setting done
+[0;32mI (1068) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1078) ADSB: rtlsdr_demod_read_reg here 1[0m
+i2c setting done
+[0;32mI (1088) ADSB: rtlsdr_read_array here 1[0m
+[0;32mI (1088) ADSB: rtlsdr_read_array here 1[0m
+rtlsdr_i2c_read_reg R82XX_CHECK_ADDR setting done
+[0;32mI (1098) ADSB: rtlsdr_read_reg here 1[0m
+[0;32mI (1108) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (1108) ADSB: rtlsdr_read_reg here 1[0m
+[0;32mI (1108) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (1118) ADSB: rtlsdr_read_reg here 1[0m
+[0;32mI (1118) ADSB: rtlsdr_write_reg here 1[0m
+[0;32mI (1128) ADSB: rtlsdr_read_reg here 1[0m
+[0;32mI (1128) ADSB: rtlsdr_write_reg here 1[0m
+[0;31mE (1138) USBH: Dev 1 EP 0 STALL[0m
+[0;32mI (1138) ADSB: rtlsdr_read_array here 1[0m
+[0;32mI (1138) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1148) ADSB: rtlsdr_read_array here 0[0m
+[0;32mI (1148) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1158) ADSB: rtlsdr_read_array here 0[0m
+[0;32mI (1158) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1168) ADSB: rtlsdr_read_array here 0[0m
+No supported tuner found
+[0;32mI (1178) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1178) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1188) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1198) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+[0;32mI (1198) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1208) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1218) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1218) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+[0;32mI (1228) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1228) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1238) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1248) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+[0;32mI (1258) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1258) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1268) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1268) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+Enabled direct sampling mode, input 1
+[0;32mI (1288) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1288) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1298) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1298) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+[0;32mI (1308) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1318) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1328) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1328) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+[0;32mI (1338) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1338) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1348) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1358) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed
+[0;32mI (1368) ADSB: rtlsdr_demod_write_reg here[0m
+[0;32mI (1368) ADSB: libusb_control_transfer failed with 259[0m
+rtlsdr_demod_write_reg failed
+[0;32mI (1378) ADSB: libusb_control_transfer failed with 259[0m
+[0;32mI (1378) ADSB: rtlsdr_demod_read_reg here 0[0m
+rtlsdr_demod_read_reg failed

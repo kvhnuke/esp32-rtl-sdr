@@ -1,0 +1,49 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x42018c8c: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:914
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x42018c89: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:914
+[0m
+[0;33m0x420180a5: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x420089e4: client_event_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:112 (discriminator 3)
+[0m
+[0;33m0x4200da83: usb_host_client_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:885
+[0m
+[0;33m0x42008d81: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:255
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x42018c8c: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:914
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x42018c89: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:914
+[0m
+[0;33m0x420180a5: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x420089e4: client_event_cb at /home/kvhnuke/Github/esp32/main/class_driver.c:112 (discriminator 3)
+[0m
+[0;33m0x4200da83: usb_host_client_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:885
+[0m
+[0;33m0x42008d81: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:255
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m

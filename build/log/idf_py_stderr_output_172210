@@ -1,0 +1,99 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x400556d2: strlen in ROM
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0m

@@ -1,0 +1,38 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/kvhnuke/Github/esp32/build/bootloader/esp-idf/esptool_py && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/kvhnuke/Github/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x52c0 bytes. 0x2d40 bytes (35%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_libusb.c.obj
+/home/kvhnuke/Github/esp32/main/esp_libusb.c: In function 'esp_libusb_control_transfer':
+/home/kvhnuke/Github/esp32/main/esp_libusb.c:33:38: warning: assignment to 'usb_device_handle_t' {aka 'struct usb_device_handle_s *'} from incompatible pointer type 'struct usb_device_handle_s **' [-Wincompatible-pointer-types]
+   33 |     adsbdev->transfer->device_handle = driver_obj->dev_hdl;
+      |                                      ^
+In file included from /home/kvhnuke/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/kvhnuke/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/kvhnuke/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:74,
+                 from /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:59,
+                 from /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:71,
+                 from /home/kvhnuke/esp/esp-idf/components/usb/include/usb/usb_host.h:14,
+                 from /home/kvhnuke/Github/esp32/main/esp_libusb.c:1:
+/home/kvhnuke/Github/esp32/main/esp_libusb.c:61:59: warning: passing argument 1 of 'usb_host_endpoint_clear' from incompatible pointer type [-Wincompatible-pointer-types]
+   61 |         ESP_ERROR_CHECK(usb_host_endpoint_clear(driver_obj->dev_hdl, 0));
+      |                                                 ~~~~~~~~~~^~~~~~~~~
+      |                                                           |
+      |                                                           struct usb_device_handle_s **
+/home/kvhnuke/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/kvhnuke/esp/esp-idf/components/usb/include/usb/usb_host.h:420:55: note: expected 'usb_device_handle_t' {aka 'struct usb_device_handle_s *'} but argument is of type 'struct usb_device_handle_s **'
+  420 | esp_err_t usb_host_endpoint_clear(usb_device_handle_t dev_hdl, uint8_t bEndpointAddress);
+      |                                   ~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable usb_host_lib_example.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/kvhnuke/Github/esp32/build/usb_host_lib_example.bin
+[7/7] cd /home/kvhnuke/Github/esp32/build/esp-idf/esptool_py && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/kvhnuke/Github/esp32/build/partition_table/partition-table.bin /home/kvhnuke/Github/esp32/build/usb_host_lib_example.bin
+usb_host_lib_example.bin binary size 0x43a60 bytes. Smallest app partition is 0x100000 bytes. 0xbc5a0 bytes (74%) free.

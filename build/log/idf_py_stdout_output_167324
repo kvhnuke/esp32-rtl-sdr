@@ -1,0 +1,14 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/kvhnuke/Github/esp32/build/bootloader/esp-idf/esptool_py && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/kvhnuke/Github/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x52c0 bytes. 0x2d40 bytes (35%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_libusb.c.obj
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/librtlsdr.c.obj
+/home/kvhnuke/Github/esp32/main/librtlsdr.c: In function 'rtlsdr_open':
+/home/kvhnuke/Github/esp32/main/librtlsdr.c:1316:9: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+ 1316 |     int r;
+      |         ^
+/home/kvhnuke/Github/esp32/main/librtlsdr.c: At top level:
+/home/kvhnuke/Github/esp32/main/librtlsdr.c:1297:25: warning: 'find_known_device' defined but not used [-Wunused-function]
+ 1297 | static rtlsdr_dongle_t *find_known_device(uint16_t vid, uint16_t pid)
+      |                         ^~~~~~~~~~~~~~~~~
+[4/8] Linking C static library esp-idf/main/libmain.a

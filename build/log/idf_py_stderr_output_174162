@@ -1,0 +1,37 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x403758ea: panic_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379b7d: esp_system_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4037ff95: __assert_func at /home/kvhnuke/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x420089a1: action_get_info at /home/kvhnuke/Github/esp32/main/class_driver.c:142 (discriminator 1)
+[0m
+[0;33m0x42008c6a: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:246
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x403758ea: panic_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379b7d: esp_system_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4037ff95: __assert_func at /home/kvhnuke/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x420089a1: action_get_info at /home/kvhnuke/Github/esp32/main/class_driver.c:142 (discriminator 1)
+[0m
+[0;33m0x42008c6a: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:246
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m

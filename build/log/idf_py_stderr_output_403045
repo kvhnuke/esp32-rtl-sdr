@@ -1,0 +1,88 @@
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c3_family is out of date.
+  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c6/esp32c6-bt-lib is out of
+  date.  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32h2/esp32h2-bt-lib is out of
+  date.  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/host/nimble/nimble is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_phy/lib is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_wifi/lib is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/lwip/lwip is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+
+CMake Warning at /home/kvhnuke/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/mbedtls/mbedtls is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:80 (git_submodule_check)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/build.cmake:242 (__build_get_idf_git_revision)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/kvhnuke/esp/esp-idf/tools/cmake/project.cmake:29 (include)
+  CMakeLists.txt:5 (include)
+
+

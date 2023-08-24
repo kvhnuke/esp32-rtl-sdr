@@ -1,0 +1,49 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x403758ea: panic_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379b7d: esp_system_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4037ff95: __assert_func at /home/kvhnuke/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200eb17: hcd_urb_dequeue at /home/kvhnuke/esp/esp-idf/components/usb/hcd_dwc.c:2634 (discriminator 3)
+[0m
+[0;33m0x4200abff: handle_ep0_dequeue at /home/kvhnuke/esp/esp-idf/components/usb/usbh.c:484
+[0m
+[0;33m0x4200b356: usbh_process at /home/kvhnuke/esp/esp-idf/components/usb/usbh.c:663
+[0m
+[0;33m0x4200a259: usb_host_lib_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:539
+[0m
+[0;33m0x42008516: host_lib_daemon_task at /home/kvhnuke/Github/esp32/main/usb_host_lib_main.c:41
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x403758ea: panic_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379b7d: esp_system_abort at /home/kvhnuke/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4037ff95: __assert_func at /home/kvhnuke/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200eb17: hcd_urb_dequeue at /home/kvhnuke/esp/esp-idf/components/usb/hcd_dwc.c:2634 (discriminator 3)
+[0m
+[0;33m0x4200abff: handle_ep0_dequeue at /home/kvhnuke/esp/esp-idf/components/usb/usbh.c:484
+[0m
+[0;33m0x4200b356: usbh_process at /home/kvhnuke/esp/esp-idf/components/usb/usbh.c:663
+[0m
+[0;33m0x4200a259: usb_host_lib_handle_events at /home/kvhnuke/esp/esp-idf/components/usb/usb_host.c:539
+[0m
+[0;33m0x42008516: host_lib_daemon_task at /home/kvhnuke/Github/esp32/main/usb_host_lib_main.c:41
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m

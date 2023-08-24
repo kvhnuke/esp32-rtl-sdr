@@ -1,0 +1,19 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/kvhnuke/Github/esp32/build/bootloader/esp-idf/esptool_py && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/kvhnuke/Github/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x52c0 bytes. 0x2d40 bytes (35%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/class_driver.c.obj
+/home/kvhnuke/Github/esp32/main/class_driver.c: In function 'action_get_str_desc':
+/home/kvhnuke/Github/esp32/main/class_driver.c:516:17: warning: unused variable 'reg' [-Wunused-variable]
+  516 |         uint8_t reg = rtlsdr_i2c_read_reg(driver_obj, R820T_I2C_ADDR, R82XX_CHECK_ADDR);
+      |                 ^~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable usb_host_lib_example.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/kvhnuke/Github/esp32/build/usb_host_lib_example.bin
+[7/7] cd /home/kvhnuke/Github/esp32/build/esp-idf/esptool_py && /home/kvhnuke/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/kvhnuke/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/kvhnuke/Github/esp32/build/partition_table/partition-table.bin /home/kvhnuke/Github/esp32/build/usb_host_lib_example.bin
+usb_host_lib_example.bin binary size 0x3f780 bytes. Smallest app partition is 0x100000 bytes. 0xc0880 bytes (75%) free.

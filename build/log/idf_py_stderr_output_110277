@@ -1,0 +1,6 @@
+Command list: dfu-util;-d;303a:9;-D;/home/kvhnuke/Github/esp32/build/dfu.bin
+dfu-util: Could not open file /home/kvhnuke/Github/esp32/build/dfu.bin for reading: No such file or directory
+CMake Error at /home/kvhnuke/esp/esp-idf/tools/cmake/run_dfu_util.cmake:27 (message):
+  dfu-util failed
+
+

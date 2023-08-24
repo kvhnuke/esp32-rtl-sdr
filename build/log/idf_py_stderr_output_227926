@@ -1,0 +1,65 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x420089be: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:241
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420089bb: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:241
+[0m
+[0;33m0x42008ab5: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/class_driver.c:286
+[0m
+[0;33m0x42009057: action_get_str_desc at /home/kvhnuke/Github/esp32/main/class_driver.c:517 (discriminator 2)
+[0m
+[0;33m0x42009126: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:584
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x420089be: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:241
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420089bb: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:241
+[0m
+[0;33m0x42008ab5: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/class_driver.c:286
+[0m
+[0;33m0x42009057: action_get_str_desc at /home/kvhnuke/Github/esp32/main/class_driver.c:517 (discriminator 2)
+[0m
+[0;33m0x42009126: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:584
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x420089be: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:241
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420089bb: rtlsdr_read_array at /home/kvhnuke/Github/esp32/main/class_driver.c:241
+[0m
+[0;33m0x42008ab5: rtlsdr_i2c_read_reg at /home/kvhnuke/Github/esp32/main/class_driver.c:286
+[0m
+[0;33m0x42009057: action_get_str_desc at /home/kvhnuke/Github/esp32/main/class_driver.c:517 (discriminator 2)
+[0m
+[0;33m0x42009126: class_driver_task at /home/kvhnuke/Github/esp32/main/class_driver.c:584
+[0m
+[0;33m0x4037c299: vPortTaskWrapper at /home/kvhnuke/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403757fc: esp_restart_noos at /home/kvhnuke/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375208: call_start_cpu1 at /home/kvhnuke/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m
